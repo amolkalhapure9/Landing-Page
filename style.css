@@ -1,0 +1,938 @@
+*{
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgb(48 19 76);
+   position: sticky;
+    top:5px;
+    height: 42px;
+   /* background: url("/image/backfinal.jpg") no-repeat center center/cover; */
+   background: url("backfinal.jpg") no-repeat center center/cover;
+    margin-top: -19px;
+   
+}
+div.main4{
+    position: sticky;
+    top:0px;
+}
+
+
+
+.navbar ul.list{
+    display: flex;
+    flex-direction: left;
+}
+.navbar ul.list li{
+    list-style: none;
+    margin-left: 33px;
+    margin-top:5px;
+
+}
+ul.list li a{
+    text-decoration: none;
+    color: white;
+    font-size:21px ;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.section1{
+    /* border:2px solid red; */
+    margin-top:0px;
+   /* border:2px solid red; */
+  background: url(learntocoding2.jpg) no-repeat center center/cover;
+  /* background-color: red; */
+   margin-top: -110px;
+   
+ 
+}
+ul.list li a:hover{
+    color:rgb(245, 0, 0);
+}
+div.section1{
+
+text-align: center;
+    height: 315px;
+}
+div.section1 h1{
+    margin-top: 117px;
+    padding-top: 143px;
+    font-size: 59px;
+    font-family: fangsong;
+    color: #a3a5a5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.section1 p {
+    margin-top: -30px;
+    font-style: oblique;
+    font-size: 25px;
+    color:#030809;
+}
+
+header.name{
+   
+   
+    height: 62px;
+    
+}
+header.name h1{
+    position: relative;
+    top: 17px;
+    left: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.main3{
+    background-color: #b5afa9;
+    height: 85px;
+}
+button.a{
+    color: red;
+    margin-left: 24px;
+}
+div.content{
+    text-align: center;
+    /* border: 2px solid red; */
+    color: beige;
+        display: block;
+        margin:auto;
+        padding:4px;
+      
+        background-color: #bbbbbb;
+        height:914px;
+      
+       
+   
+        
+   
+
+}
+
+img{
+   
+    height: 89%;
+   
+    
+}
+div.content h1{
+    color: black;
+    margin-top:41px;
+}
+
+div.footer{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: left;
+    background-color: rgb(0 0 0 / 46%);
+   
+    color:white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+ 
+}
+div.about{
+    width:33%;
+    text-align: center;
+}
+div.contact{
+    width:33%;
+    text-align: center;
+  
+}
+div.mediaa{
+    width:34%;
+}
+div.mediaa img{
+    width: 32px;
+    height: 38px;
+    margin-left: 25px;
+    
+}
+div.contact a{
+   color:rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+div.nav1{
+   
+    text-align: center;
+    background-color: rgb(48 19 76);
+    color: white;
+    padding-top:10px;
+    background: url("backfinal.jpg") no-repeat center center/cover;
+}
+div.nav1 p{
+position: relative;
+top:-10px;
+}
+.background{
+    /* background: rgba(0,0,0,0.7) url('https://th.bing.com/th/id/OIP.yuK0cqbxzaqZ0lE2In0y4QHaEo?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-blend-mode: darken; */
+    
+}
+.burger{
+    display:none;
+    padding:11px;
+    position:absolute;
+    right:5%;
+
+}
+.line{
+    background-color: white;
+    height:4px;
+    width:33px;
+    margin:4px 4px;
+}
+div.con1{
+    background-color: red;
+    border: 2px solid black;
+    width:30%;
+}
+
+div.cources{
+    width:100%;
+    display: flex;
+    flex-direction: left;
+    margin-top:26px;
+    justify-content: center;
+ 
+}
+.cources div.course1{
+    /* border: 2px solid red; */
+    /* width: 49%; */
+    width: 382px;
+    height: 20%;
+    /* margin-left: 121px; */
+   
+    /* padding-bottom: 343px; */
+    margin: 15px;
+    border-radius: 17px;
+    background-color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+div.course1 div.logo1{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+   
+   
+
+}
+
+/* //------------- */
+div.course1 div.logo1 img{
+    height: 199px;
+    width: 100%;
+    border-radius: 17px;
+    transition: 0.5s all ease-in-out;
+}
+div.logo1:hover img{
+    transform: scale(1.1);
+
+}
+
+
+/* ----------------------- */
+div.course1 div.info1{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+    
+
+}
+div.info1 h1{
+    margin-top: 9px;
+   
+}
+div.info1 p{
+    margin-left: 24px;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+div.info1 button{
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 34px;
+    background-color:  rgb(48 19 76);
+    color:white;
+}
+
+
+div.course1 div.logo2{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+   
+   
+
+}
+div.course1 div.logo2 img{
+    height: 199px;
+    width: 100%;
+    border-radius: 17px;
+    transition: 0.5s all ease-in-out;
+}
+
+div.logo2:hover img{
+    transform: scale(1.1);
+
+}
+div.course1 div.info2{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+    
+
+}
+div.info2 h1{
+    margin-top: 9px;
+
+}
+div.info2 p{
+    margin-left: 24px;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+div.info2 button{
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 34px;
+    background-color:  rgb(48 19 76);
+    color:white;
+}
+div.course1 div.logo3{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+   
+   
+
+}
+div.course1 div.logo3 img{
+    height: 199px;
+    width: 100%;
+    border-radius: 17px;
+    transition: 0.5s all ease-in-out;
+}
+
+div.logo3:hover img{
+    transform: scale(1.1);
+
+}
+
+div.course1 div.info3{
+    height: 199px;
+    /* border: 2px solid black; */
+    width: 100%;
+    
+
+}
+div.info3 h1{
+    margin-top: 9px;
+
+}
+div.info3 p{
+    margin-left: 24px;
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+div.info3 button{
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 34px;
+    background-color:  rgb(48 19 76);
+    color:white;
+}
+.course1 button a{
+    text-decoration: none;
+    color:white
+}
+@media only screen and (max-width:793px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .leftside{
+        width:96%;
+        flex-direction: column;
+        /* margin:5 */
+        text-align: center;
+
+    }
+    .leftside li {
+        margin:6px;
+    }
+    .navbar{
+        flex-direction: column;
+        height:220px;
+        transition: all 0.7s ease-out;
+
+    }
+    .navbar ul.list li {
+        padding: 4px;
+    }
+    .burger{
+        display: block;
+        margin-top: -234px;
+       
+    }
+    .line{
+       margin:2px ;
+      
+
+    }
+    .h-nav {
+        height: 13%;
+    }
+   .v-class{
+    opacity:0;
+   }
+   img{
+    height:89%;
+    /* margin-left: 68px; */
+   }
+
+   ul.list li a {
+    margin-left: -97px;
+   }
+   div.about{
+    width: 55%;
+   }
+}
+
+@media only screen and (max-width:686px){
+   
+  
+   
+
+
+}
+@media only screen and (max-width:670px){
+    
+   
+    div.footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    div.about{
+        width:100%;
+    }
+    div.contact{
+        width:100%;
+    }
+    div.mediaa{
+        width:100%;
+    }
+    div.content p {
+        color: black;
+        font-size: 22px;
+    }
+   
+   
+
+}
+@media only screen and (max-width:563px){
+   
+    div.content p {
+        color: black;
+        font-size: 19px;
+    }
+    div.footer {
+        display: flex;
+      
+        margin-top: -188px;
+    }
+  
+
+}
+
+@media only screen and (max-width:460px){
+    /* .content div.header1 {
+        margin-left: 23px;
+    }
+    
+    .content div.header3 {
+        margin-left: 23px;
+    } */
+    
+}
+@media only screen and (max-width:460px){
+    
+    
+
+div.content p {
+    color: black;
+    font-size: 19px;
+}
+
+}
+@media only screen and (max-width:488px){
+   
+    div.feature {
+        width: 56%;
+        height: 12%;
+        margin-left: 69px;
+    }
+}
+@media only screen and (max-width:440px){
+
+
+
+   
+    
+   
+}
+
+@media only screen and (max-width:371px){
+   
+    div.section1 h1{
+        font-size: 45px;
+    }
+ 
+    div.footer{
+        margin-top: -133px;
+    }
+
+}
+@media only screen and (max-width:330px){
+  
+    
+    div.content p {
+        color: black;
+        font-size: 16px;
+    }
+    header.name h1 {
+        position: relative;
+        top: 17px;
+        left: 11px;
+    }
+    div.footer h1{
+        font-size: 33px;
+    }
+    div.contact h1{
+        font-size:27px;
+    }
+    div.section1 h1 {
+        font-size: 39px;
+    }
+    div.section1 p{
+        font-size:18px;
+    }
+}
+@media only screen and (max-width:296px){
+    
+    div.section1 h1{
+        font-size: 32px;
+    }
+    div.section1 p{
+        font-size: 18px;
+    }
+  
+    div.footer {
+        margin-top: -211px;
+    }
+    div.content p {
+        color: black;
+        font-size: 17px;
+    }
+    div.section1 h1 {
+        font-size: 38px;
+    }
+    div.section1 p {
+        font-size: 16px;
+    }
+    header.name h1 {
+        position: relative;
+        top: 17px;
+        left: 10px;
+        font-size: 28px;
+    }
+}
+
+
+
+@media  only screen and (max-width:1186px){
+    .cources div.course1 {
+        /* border: 2px solid red; */
+        /* width: 49%; */
+        width: 314px;
+        height: 20%;
+        /* margin-left: 121px; */
+        /* padding-bottom: 343px; */
+        margin: 3px;
+        border-radius: 17px;
+        padding-bottom: 21px;
+    
+}
+}
+@media only screen and (max-width:990px){
+    .cources div.course1 {
+        /* border: 2px solid red; */
+        /* width: 49%; */
+        width: 258px;
+        height: 20%;
+        /* margin-left: 121px; */
+        /* padding-bottom: 343px; */
+        margin: 3px;
+        border-radius: 17px;
+        padding-bottom: 21px;
+    }
+    .course1 h1{
+        font-size: 27px;
+    }
+  
+}
+@media only screen and (max-width:797px){
+    .cources div.course1 {
+margin:0px;
+width: 240px;
+    }
+}
+
+@media only screen and (max-width:767px){
+  .cources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .cources div.course1 {
+    margin: 21px;
+    width: 421px;
+}
+div.content{
+    height: 1693px;
+}
+
+}
+/* @media only screen and (max-width:767px){
+
+    .cources div.course1 {
+        margin: 21px;
+        width: 421px;
+        padding-bottom: 52px;
+    }
+} */
+@media only screen and (max-width:670px){
+    .cources div.course1 {
+        margin: 21px;
+        width: 421px;
+        padding-bottom: 46px;
+    }
+    div.content {
+       
+          
+        
+    }
+}
+@media only screen and (max-width:563px){
+    .cources div.course1 {
+        margin: 21px;
+        width: 421px;
+        padding-bottom: 7px;
+    }
+   
+}
+@media only screen and (max-width:442px){
+
+    .cources div.course1 {
+        margin: 21px;
+        width: 303px;
+        padding-bottom: 25px;
+    }
+    div.content {
+        height: 1730px;
+    }
+}
+@media only screen and (max-width:381px){
+    div.section1 h1 {
+        margin-top: 117px;
+        padding-top: 143px;
+        font-size: 49px;
+        font-family: fangsong;
+        color: #315f68;
+        color: #4f0000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media only screen and (max-width:371px){
+    div.content {
+       
+    }
+    div.footer {
+        margin-top: -187px;
+    }
+}
+@media only screen and (max-width:326px){
+.cources div.course1 {
+    margin: 21px;
+    width: 236px;
+    padding-bottom: 9px;
+}
+div.footer {
+    margin-top: -242px;
+}
+}
+
+
+
+@media only screen and (max-width:506px){
+    div.section1 h1 {
+        /* margin-top: 117px; */
+        padding-top: 115px;
+        font-size: 53px;
+        font-family: fangsong;
+        color: #315f68;
+        color: #4f0000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div.content {
+        margin-top: -55px;
+    }
+
+}
+@media only screen and (max-width:361px){
+    div.section1 h1 {
+        /* margin-top: 117px; */
+        padding-top: 82px;
+        font-size: 43px;
+        font-family: fangsong;
+        color: #315f68;
+        color: #4f0000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div.section1 p {
+        margin-top: -30px;
+        font-style: oblique;
+        font-size: 21px;
+        color: #030809;
+    }
+    div.content {
+        margin-top: -89px;
+    }
+}
+@media only screen and (max-width:262px){
+
+    div.content {
+        
+    }
+    .cources div.course1 {
+        margin: 21px;
+        width: 201px;
+        padding-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width:237px){
+div.course1{
+    padding-bottom:0px;
+    margin: 7px;
+    width: 222px;
+}
+div.footer {
+    margin-top: -151px;
+}
+}
+
+div.ads{
+    Display:flex;
+    flex-direction:left;
+   
+    background-color: #2f4154;
+    height: 330px;
+    
+
+   }
+ 
+   div.aboutus {
+    margin-left: 5%;
+    width: 86%;
+    display: flex;
+    flex-direction: left;
+    height: 200px;
+    padding: 20px;
+    border-radius: 22px;
+    background-color: #bbbbbb;
+    margin-top: 25px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(194, 176, 176), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+div.aboutus img{
+    /* border:2px solid red; */
+    border-radius: 136px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(194, 176, 176), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+   div.info{
+    padding-top: 63px;
+    color:white;
+   /* border:2px solid red; */
+   margin-left:27px;
+   text-align: center;
+   box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(150, 134, 134), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+
+   }
+   div.myself{
+    border:2px solid red;
+    width: 410;
+    border-radius: 106px;
+    background: url("C:/Users/DELL/OneDrive/Desktop/Task1/image/myself.jpg") no-repeat center center/cover;
+  }
+   @media only screen and (max-width:259px){
+    div.ads{
+        flex-direction: column;
+        height: 61px;
+    }
+    div.aboutus {
+color: white;
+text-decoration: none;
+margin-left: 78px;
+}
+
+ }
+
+ @media only screen and (max-width:262px){
+    
+    div.content p {
+        color: black;
+        font-size: 15px;
+    }
+    div.footer {
+        margin-top: -191px;
+    }
+    div.section1 p {
+        font-size: 16px;
+    }
+    header.name h1 {
+        position: relative;
+        top: 17px;
+        left: 10px;
+        font-size: 27px;
+    }
+    div.section1 h1 {
+        font-size: 36px;
+    }
+    div.content h1{
+        font-size: 1.7rem;
+    }
+
+}
+
+div.payment{
+    width:100%;
+    height:400px;
+    margin-top: -193px;
+    display: flex;
+    flex-direction: left;
+    background-color: #bbbbbb;
+}
+form.paymentform{
+    /* border: 2px solid red; */
+    width: 42%;
+    margin-left: 87px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+    border-radius: 7px;
+    background-color: white;
+
+}
+form.paymentform h1{
+    text-align: center;
+   
+}
+input{
+    width: 63%;
+   
+}
+form.paymentform div{
+    text-align: center;
+    margin-bottom: 17px;
+}
+select{
+    width: 63%;
+   
+}
+form.Feedback{
+    /* border: 2px solid red; */
+    width: 42%;
+    margin-left: 37px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+    border-radius: 7px;
+    background-color: white;
+
+}
+form.Feedback{
+    text-align: center;
+
+}
+textarea{
+    width: 63%;
+}
+form.Feedback div{
+    text-align: center;
+    margin-bottom: 17px;
+}
+div.submit{
+    margin-top:12px;
+}
+
+@media only screen and (max-width:990px){
+    form.Feedback{
+    margin-left: 7px;
+    }
+}
+
+@media only screen and (max-width:990px){
+    div.payment{
+        flex-direction: column;
+        height: 250%;
+    }
+
+    form.paymentform{
+        width:74%;
+    }
+    form.Feedback{
+        width: 74%;
+        margin-left: 56px;
+    }
+
+
+}
+@media only screen and (max-width:990px){
+    form.paymentform{
+        width:90%;
+        margin-left:2%;
+    }
+    form.Feedback{
+        width:90%;
+        margin-left:2%;
+    }
+   
+
+}
+@media only screen and (max-width:997px){
+    div.aboutus{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:670px){
+    div.payment {
+        align-items: center;
+        flex-direction: column;
+        height: 176%;
+        margin-top: -56px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    div.payment{
+        height:249%;
+    }
+}
